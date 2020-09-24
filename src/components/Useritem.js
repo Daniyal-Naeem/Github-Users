@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Useritem = props => {
     
@@ -14,12 +15,13 @@ const Useritem = props => {
             />
             <h3>{login}</h3>
       
-            <div>
-              <a href= {html_url} className='btn btn-dark btn-sm my-1'>
+           <div> 
+            <Link to={`/user/${login}`} className='btn btn-dark btn-sm my-1'>
                 More
-           </a>
-            </div>
-          </div>
+         </Link>
+         </div>
+         </div>
+          
         );
     
 
