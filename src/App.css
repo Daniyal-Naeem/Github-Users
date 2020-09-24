@@ -417,3 +417,6 @@ table th {
   grid-template-columns: repeat(3, 1fr);
   grid-Gap: 1rem;
 }
+.from, input{
+  width: 50%;
+}
